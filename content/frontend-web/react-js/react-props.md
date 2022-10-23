@@ -12,7 +12,6 @@ showToc: true
 
 ### หลักการทำงานของ Props
 จากรูปด่านล่างเราจะเห็นได้ว่าการทำงานตรงไปตรงมามากๆคือเป็นส่งข้อมูลจาก Parent ไปที่ Children Component แบบทางเดียว(ReadOnly)
-<<<<<<< HEAD
 ![](https://www.techdiagonal.com/wp-content/uploads/2019/09/react-props-blog-image-design.jpg)
 
 ### การใช้งาน Props
@@ -100,10 +99,6 @@ function App() {
 
 สุดท้ายนี้ก็หวังว่าจะเป็นประโยชน์กับทุกๆท่านที่เริ่มเขียน React นะฮะ ส่วนตัวผมนั้นขอตัวไปเรียนรู้ React ต่อก่อนละฮะ แล้วพบกันใหม่ :)
 
-Credit Image: https://www.techdiagonal.com/wp-content/uploads/2019/09/react-props-blog-image-design.jpg
-จากรูปด่านล่างเราจะเห็นได้ว่าการทำงานตรงไปตรงมามากๆคือเป็นส่งข้อมูลจาก Parent ไปที่ Children Component แบบทางเดียว
-=======
->>>>>>> 3694c6a... edit content of react props
 ![](https://www.techdiagonal.com/wp-content/uploads/2019/09/react-props-blog-image-design.jpg)
 
 ### การใช้งาน Props
