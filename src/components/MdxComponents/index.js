@@ -22,6 +22,8 @@ import FriendsWebsites from './FriendsWebsites';
 import FeatureAsRowComparisonTable from './FeatureAsRowComparisonTable';
 import LimitTextToNumberOfLines from './LimitTextToNumberOfLines';
 import FixingFloatingFooterToBottom from './FixingFloatingFooterToBottom';
+import TextTransformExample from './TextTransformExample'
+import FallingSnow from '../FallingSnow';
 
 const idFromHeader = (props) => {
   let name = props.children;
@@ -66,6 +68,7 @@ const emphasis = (props) => {
   return <em {...props} />;
 };
 
+// Export components to be available in MDX page without explicitly import
 export default {
   h1: (props) => Header(1, props),
   h2: (props) => Header(2, props),
@@ -103,5 +106,7 @@ export default {
   FeatureAsRowComparisonTable,
   LimitTextToNumberOfLines,
   FixingFloatingFooterToBottom,
+  TextTransformExample,
+  FallingSnow,
   ...Highlights,
 };
